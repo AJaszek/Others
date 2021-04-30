@@ -1,0 +1,10 @@
+C:\Users\Arek\source\repos\setna_proba\bin\x64\Debug\setna_proba.exe.config
+C:\Users\Arek\source\repos\setna_proba\bin\x64\Debug\setna_proba.exe
+C:\Users\Arek\source\repos\setna_proba\bin\x64\Debug\setna_proba.pdb
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.csprojAssemblyReference.cache
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.Main.resources
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.Properties.Resources.resources
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.csproj.GenerateResource.cache
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.csproj.CoreCompileInputs.cache
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.exe
+C:\Users\Arek\source\repos\setna_proba\obj\x64\Debug\setna_proba.pdb
