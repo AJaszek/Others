@@ -37,6 +37,7 @@ export class QuestionnaireComponent implements OnInit {
 
   ngOnInit(): void {
     let fin = sessionStorage.getItem("fin");
+    
     if (fin != null) {
       this.finished = true;
       this.scoreImage = fin;
@@ -79,5 +80,9 @@ export class QuestionnaireComponent implements OnInit {
 
   }
 
+  fillAgain(){
+    this.finished=false;
+    sessionStorage.removeItem("fin");
+  }
 
 }

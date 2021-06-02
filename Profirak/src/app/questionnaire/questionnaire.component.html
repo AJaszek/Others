@@ -27,8 +27,9 @@
 </div>
 <ng-template #scoreDisplay>
     <div class="score">
-        <img src="{{scoreImage}}" alt="wynik" class="scorImage">
+        <img src="{{scoreImage}}" alt="wynik" class="scoreImage">
         <div style="font-size: larger;">Twój wynik to {{score}}</div>
+        <div class="checkButton" (click)="fillAgain()">Spróbuj jeszcze raz</div>
     </div>
     
 </ng-template>

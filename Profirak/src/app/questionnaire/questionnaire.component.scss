@@ -18,6 +18,7 @@
     padding: 1vh;
     margin:auto;
     margin-bottom: 2vh;
+    margin-top: 2vh;
     background: $my-blue;
     border-radius: 3px;
     font-size: large;
@@ -75,4 +76,9 @@
     width: 15px;
     background-color: #eee;
     border: 1px solid $my-blue;
+  }
+  .scoreImage{
+    border-radius: 8px;
+    width: 80%;
+    //box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
   }

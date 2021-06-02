@@ -7,9 +7,9 @@ import { QuestionnaireComponent } from './questionnaire/questionnaire.component'
 
 const routes: Routes = [
   { path: '', component: MainComponent },
-  { path: 'kontakt', component: ContactComponent },
+  { path: 'rodzaje-badań', component: ContactComponent },
   { path: 'ankieta', component: QuestionnaireComponent },
-  { path: 'historia', component: HistoryComponent },
+  { path: 'profilaktyka', component: HistoryComponent },
 ];
 
 @NgModule({
