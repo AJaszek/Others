@@ -1,0 +1,34 @@
+<div class="form"  *ngIf="finished == false; else scoreDisplay">
+    
+    <div *ngFor="let question of questions">
+        <div class="quest">{{question.quest}}</div>
+        <div *ngFor="let answer of question.answer">
+            <label class="container">
+                <input type="radio" name="pyt{{question.idd}} " value="{{answer[0]}}" [(ngModel)]="question.chosen">
+                <span class="checkmark"></span>
+                {{answer[0]}} 
+            </label>
+        </div>
+        <br>
+    </div>
+    <div *ngFor="let question of questions2">
+        <div class="quest">{{question.quest}}</div>
+        <div *ngFor="let answer of question.answer">
+
+            <label class="container">
+                <input type="checkbox" name="pyt{{question.idd}} " value="{{answer[0]}}"  [(ngModel)]="answer[2]">
+                <span class="checkbox"></span>
+                {{answer[0]}} 
+            </label>
+        </div>
+        <br>
+    </div>
+    <div class="checkButton" (click)="check()">Wyślij</div>
+</div>
+<ng-template #scoreDisplay>
+    <div class="score">
+        <img src="{{scoreImage}}" alt="wynik" class="scorImage">
+        <div style="font-size: larger;">Twój wynik to {{score}}</div>
+    </div>
+    
+</ng-template>

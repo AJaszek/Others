@@ -1,0 +1,78 @@
+@import "../../styles.scss";
+.score{
+    text-align: center;
+}
+.quest{
+    font-size:larger;
+    font-weight: bolder;
+    background: $my-blue;
+    color: #fff;
+    padding: 1.5vh;
+    margin-bottom: 2vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(26, 27, 27, 0.336);
+}
+.checkButton{
+    text-align: center;
+    padding: 1vh;
+    margin:auto;
+    margin-bottom: 2vh;
+    background: $my-blue;
+    border-radius: 3px;
+    font-size: large;
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    height: 20%;
+    box-shadow: 5px 10px 20px rgba(26, 27, 27, 0.336);
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    border: 1px solid $my-blue;
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 1vh;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container:hover input ~ .checkbox {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: $my-blue;
+  }
+  .container input:checked ~ .checkbox {
+    background-color: $my-blue;
+  }
+
+  .container input {
+    position: absolute;
+    opacity:0;
+    cursor: pointer;
+  }
+  .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border: 1px solid $my-blue;
+  }

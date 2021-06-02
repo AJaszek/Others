@@ -1,0 +1,87 @@
+@import "../styles.scss";
+
+.topPanel{
+    //background-color: red;
+    font-size: 10vh;
+    border-bottom: 1vh solid $my-blue;
+    font-weight: 900;
+    width: 80%;
+    padding-bottom: 2vh;
+    height: 10vh;
+    min-height: 30px;
+    display: inline-block;
+}
+.sidePanel{
+    //background-color: rgb(123, 255, 0);
+    width: 20%;
+    min-height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 5vh;
+    left: 3vh;
+}
+
+.content{
+    background-color: #ffffff;
+    //box-shadow: 0 6px 15px rgba(26, 27, 27, 0.08);
+    box-shadow: 10px 15px 30px rgba(26, 27, 27, 0.336);
+    border-radius: 16px;
+
+    padding: 2vh;
+
+    width: 70%;
+    height: 73vh;
+    overflow-y: scroll;
+    float: right;
+    position: relative;
+    right: 5vh;
+    top: 5vh;
+}
+.contentPanel{
+   // background-color: #2f3c7e;
+    //color: #fbeaeb;
+
+    //background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 100%;
+    height: 87vh;
+    min-height: 50px;
+}
+.buttonRouter{
+    width: 100%;
+    padding: 2vh;
+    background: $my-blue;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 5px 5px 50px rgba(26, 27, 27, 0.336);
+}
+.buttonRouter:hover{
+    background: $my-darkerBlue; 
+}
+.buttonRouter:active{
+    width: 90%;
+
+}
+.image{
+    width: 20%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    //float: left;
+}
+img{
+    width: 100%;
+    margin-left:1vh;
+    margin-top:5vh;
+    padding: 1vh;
+    border-radius: 20px;
+    box-shadow: 10px 15px 30px rgba(26, 27, 27, 0.336);
+}
